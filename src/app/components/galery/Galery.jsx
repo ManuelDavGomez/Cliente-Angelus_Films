@@ -21,6 +21,7 @@ const Galery = () => {
             src={Image1}
             className="w-full h-full rounded-lg"
             alt="Picture of the author"
+            loading="lazy"
           />
         </div>
         </a>
@@ -35,6 +36,7 @@ const Galery = () => {
             src={Image2}
             className="w-full h-full rounded-lg"
             alt="Picture of the author"
+            loading="lazy"
           />
         </div>
         </a>

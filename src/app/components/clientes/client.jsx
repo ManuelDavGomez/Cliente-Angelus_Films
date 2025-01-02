@@ -22,6 +22,7 @@ const client = () => {
                   height="100"
                   width="250"
                   alt=""
+                  loading="lazy"
                 />
               </div>
               <div className="slide">
@@ -30,6 +31,7 @@ const client = () => {
                   height="100"
                   width="250"
                   alt=""
+                  loading="lazy"
                 />
               </div>
               <div className="slide">
@@ -38,6 +40,7 @@ const client = () => {
                   height="100"
                   width="250"
                   alt=""
+                  loading="lazy"
                 />
               </div>
               <div className="slide">
@@ -46,6 +49,7 @@ const client = () => {
                   height="100"
                   width="250"
                   alt=""
+                  loading="lazy"
                 />
               </div>
               <div className="slide">
@@ -54,6 +58,7 @@ const client = () => {
                   height="100"
                   width="250"
                   alt=""
+                  loading="lazy"
                 />
               </div>
               <div className="slide">
@@ -62,6 +67,7 @@ const client = () => {
                   height="100"
                   width="250"
                   alt=""
+                  loading="lazy"
                 />
               </div>
               <div className="slide">
@@ -70,6 +76,7 @@ const client = () => {
                   height="100"
                   width="250"
                   alt=""
+                  loading="lazy"
                 />
               </div>
               <div className="slide">
@@ -78,6 +85,7 @@ const client = () => {
                   height="100"
                   width="250"
                   alt=""
+                  loading="lazy"
                 />
               </div>
               <div className="slide">
@@ -86,6 +94,7 @@ const client = () => {
                   height="100"
                   width="250"
                   alt=""
+                  loading="lazy"
                 />
               </div>
               <div className="slide">
@@ -94,6 +103,7 @@ const client = () => {
                   height="100"
                   width="250"
                   alt=""
+                  loading="lazy"
                 />
               </div>
               <div className="slide">
@@ -102,6 +112,7 @@ const client = () => {
                   height="100"
                   width="250"
                   alt=""
+                  loading="lazy"
                 />
               </div>
               <div className="slide">
@@ -110,6 +121,7 @@ const client = () => {
                   height="100"
                   width="250"
                   alt=""
+                  loading="lazy"
                 />
               </div>
               <div className="slide">
@@ -118,6 +130,7 @@ const client = () => {
                   height="100"
                   width="250"
                   alt=""
+                  loading="lazy"
                 />
               </div>
               <div className="slide">
@@ -126,6 +139,7 @@ const client = () => {
                   height="100"
                   width="250"
                   alt=""
+                  loading="lazy"
                 />
               </div>
             </div>

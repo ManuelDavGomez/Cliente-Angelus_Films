@@ -1,7 +1,7 @@
 import Image from "next/image";
 import "./pagevideo.css";
 import Link from "next/link";
-import Datas from "../../data/data.js";
+import Videodata from "../../data/videoData.js";
 
 const Page = () => {
   return (
@@ -16,34 +16,20 @@ const Page = () => {
           </h1>
 
           <div className="main_container text-center">
-            <ul>
-              {Datas.map((item) => (
-                <li key={item.id}>
-                  <a href={`example/${item.id}`}>
-                    <h2>{item.title}</h2>
-                    <p>{item.content}</p>
-                  </a>
-                </li>
-              ))}
-            </ul>
-
-            {/* <section className="flex items-center flex-col justify-center">
-              <Link href="/videos/1">
-               
-                  <Image
-                    src="https://images.unsplash.com/photo-1551133990-70307d02dc94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjZ8fGluZG9vcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
-                    alt="Video Thumbnail"
-                    width={500}
-                    height={500}
-                    className="hover:opacity-70 duration-300 ease-in-out"
-                  />
-                  <p className="font-bold text-[16px] mt-5">xdxdxd</p>
-                  <p className="text-gray-700">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  </p>
-          
+            {Videodata.map((data, index) => (
+              <Link href={`galeryvideo/${data.id}`} key={index}>
+                <Image
+                  src="https://images.unsplash.com/photo-1551133990-70307d02dc94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjZ8fGluZG9vcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+                  alt="Video Thumbnail"
+                  width={500}
+                  height={500}
+                  className="hover:opacity-70 duration-300 ease-in-out card_img"
+                  loading="lazy"
+                />
+                <p className="font-bold text-[16px] mt-5">{data.title}</p>
+                <p className="text-gray-700">{data.content.slice(0,30)}</p>
               </Link>
-            </section> */}
+            ))}
           </div>
         </article>
       </section>

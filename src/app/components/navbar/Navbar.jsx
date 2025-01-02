@@ -45,6 +45,7 @@ const Navbar = () => {
               src={Logo}
               alt="Picture of the author"
               className="w-[100px]"
+              loading="lazy"
             />
           </Link>
         </article>

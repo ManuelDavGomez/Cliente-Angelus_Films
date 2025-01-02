@@ -11,6 +11,7 @@ const Profile = () => {
             src={Image11}
             className="rounded-full w-[300px] h-[300px] object-cover shadow-lg shadow-[#000000d5]"
             alt="Picture of the author "
+            loading="lazy"
           />
         </section>
         <section className="w-[100%] flex flex-col items-center justify-center min-[769px]:items-start mt-5 text-black">

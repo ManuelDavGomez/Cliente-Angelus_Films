@@ -6,7 +6,7 @@ const Foot = () => {
     <article className="flex items-center flex-col justify-center text-white w-full ">
       <article className="w-full  flex items-center flex-col justify-center gap-8 pt-[80px] pb-[80px] min-[1150px]:w-[1000px]">
         <section className="w-full flex items-center flex-col justify-between min-[768px]:flex-row min-[768px]:pl-[60px] min-[768px]:pr-[60px] gap-8">
-          <Image src={Logo} alt="Logo" width={200} />
+          <Image src={Logo} alt="Logo" width={200} loading="lazy"/>
           <h2>
             CONTÁ<span className="text-[#f70404]">CTANOS</span>
           </h2>
