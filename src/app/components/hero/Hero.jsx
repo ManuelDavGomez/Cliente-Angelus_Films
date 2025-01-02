@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <section className=" w-full h-full p-5 pt-16 pb-16 flex items-center justify-center flex-col gap-5 ">
         <article className="flex flex-col items-center text-center justify-center w-[100%] gap-5 min-[1150px]:w-[1100px] mt-10 mb-32">
-          <h1 class="title_hero text-white font-bold">
+          <h1 className="title_hero text-white font-bold">
             FILMAMOS LO QUE OTROS SOLO <span className="text-[#f70404]">IMAGINAN</span>
           </h1>
           <p className="text-white w-[100%] min-[768px]:w-[700px] tracking-widest">
