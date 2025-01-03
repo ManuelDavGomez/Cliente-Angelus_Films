@@ -3,6 +3,7 @@ import "./globals.css";
 import Foot from "./components/footer/Foot.jsx";
 import Navbar from "../app/components/navbar/Navbar.jsx";
 
+
 const montserrat = Montserrat({
   weight: "400",
   subsets: ["latin"],
@@ -19,7 +20,7 @@ export default function RootLayout({ children }) {
       <body className={montserrat.className}>
         <header>
           <Navbar />
-        </header> 
+        </header>
 
         <div className="floating_btn">
           <a target="_blank" href="https://wa.me/">

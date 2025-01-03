@@ -4,7 +4,7 @@ import "./hero.css";
 const Hero = () => {
   return (
     <>
-      <section className=" w-full h-full p-5 pt-16 pb-16 flex items-center justify-center flex-col gap-5 ">
+      <section className=" w-full h-full p-5 pt-[200px] pb-20 flex items-center justify-center flex-col gap-5 ">
         <article className="flex flex-col items-center text-center justify-center w-[100%] gap-5 min-[1150px]:w-[1100px] mt-10 mb-32">
           <h1 className="title_hero text-white font-bold">
             FILMAMOS LO QUE OTROS SOLO <span className="text-[#f70404]">IMAGINAN</span>
