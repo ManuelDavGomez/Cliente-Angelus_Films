@@ -9,8 +9,8 @@ const page = () => {
           class="container flex flex-col md:flex-row lg:max-w-5xl w-full px-5 py-12 md:py-24 mx-auto section"
           id="contact-form"
         >
-          <div class="md:w-1/3 w-full">
-            <h1 class="text-4xl text-gray-800 sm:text-4xl font-bold title-font mb-4">
+          <div class="md:w-1/3 w-full mt-20">
+            <h1 class="text-4xl text-gray-800 sm:text-4xl font-bold text-center title-font mb-4">
               Contactanos
             </h1>
             <p class="leading-relaxed text-xl text-gray-900">

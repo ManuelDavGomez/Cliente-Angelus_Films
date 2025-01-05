@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Logo from "@/app/assets/logo.png";
+import Link from "next/link";
 
 const Foot = () => {
   return (
@@ -128,6 +129,40 @@ const Foot = () => {
             </svg>
             <p>32194703892</p>
           </section>
+        </section>
+
+        <section className="mt-5">
+        <ul className="flex flex-row justify-center flex-wrap gap-5 ">
+            <li className="tracking-widest">
+              <Link href="/" className=" hover:text-[#f70404] duration-300">
+                Inicio
+              </Link>
+            </li>
+            <li className="tracking-widest">
+              <Link
+                href="/pages/galeryfoto"
+                className=" hover:text-[#f70404] duration-300"
+              >
+                Fotos
+              </Link>
+            </li>
+            <li className="tracking-widest">
+              <Link
+                href="/pages/galeryvideo"
+                className=" hover:text-[#f70404] duration-300"
+              >
+                Videos
+              </Link>
+            </li>
+            <li className="tracking-widest">
+              <Link
+                href="/pages/contact"
+                className=" hover:text-[#f70404] duration-300"
+              >
+                Contacto
+              </Link>
+            </li>
+          </ul>
         </section>
 
         <hr className="w-full border border-white mt-[30px]" />
