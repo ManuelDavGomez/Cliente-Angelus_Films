@@ -12,7 +12,7 @@ const Page = () => {
       >
         <article className="flex justify-center flex-col items-center w-[95%] gap-10  min-[1150px]:w-[1100px] relative min-[450px]:w-[80%] min-[768px]:w-full">
           <h1 className="font-bold mt-24">
-            Galeria de <span className="text-[#f70404]">Fotos</span>
+            Galeria de <span className="text-[#f70404]">Proyectos</span>
           </h1>
 
           <div className="main_container text-center">
@@ -23,11 +23,10 @@ const Page = () => {
                   alt="Video Thumbnail"
                   width={500}
                   height={500}
-                  className="hover:opacity-70 duration-300 ease-in-out card_img"
-                  loading="eager"
+                  className="hover:scale-105 duration-300 ease-in-out card_img h-[600px] shadow-xl"
+                  loading="lazy"
                 />
-                <p className="font-bold text-[16px] mt-5">{data.title}</p>
-                <p className="text-gray-700">{data.content.slice(0,30)}</p>
+                <p className="font-bold text-[16px] mt-5 mb-10">{data.title}</p>
               </Link>
             ))}
           </div>

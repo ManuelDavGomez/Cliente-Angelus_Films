@@ -2,7 +2,7 @@ const data = [
   {
     id: "1",
     title: "Santo Cristo",
-    content: "This is the first item content",
+
     images: [
       "https://i.imgur.com/RsoOmZd.jpg",
       "https://i.imgur.com/KpkAe3d.jpg",
@@ -21,7 +21,7 @@ const data = [
   {
     id: "2",
     title: "Pons Quintana",
-    content: "This is the first item content",
+
     images: [
       "https://i.imgur.com/tlAUmS4.jpg",
       "https://i.imgur.com/3AY1EKZ.jpg",
@@ -35,7 +35,7 @@ const data = [
   {
     id: "3",
     title: "Miramar",
-    content: "This is the first item content",
+
     images: [
       "https://i.imgur.com/QwSl5ub.jpg",
       "https://i.imgur.com/GYJZIWs.jpg",
@@ -50,7 +50,7 @@ const data = [
   {
     id: "4",
     title: "Mirador Desport",
-    content: "This is the first item content",
+
     images: [
       "https://i.imgur.com/DXuzdWT.jpg",
       "https://i.imgur.com/PX2qQ4q.jpg",
@@ -66,7 +66,7 @@ const data = [
   {
     id: "5",
     title: "Menorca Flower",
-    content: "This is the first item content",
+
     images: [
       "https://i.imgur.com/iWf036j.jpg",
       "https://i.imgur.com/wJPJceY.jpg",
@@ -91,7 +91,7 @@ const data = [
   {
     id: "6",
     title: "Maria & Maira",
-    content: "This is the first item content",
+
     images: [
       "https://i.imgur.com/bBaFE6h.jpg",
       "https://i.imgur.com/dKFAajm.jpg",
@@ -105,7 +105,7 @@ const data = [
   {
     id: "7",
     title: "Maria & Joan",
-    content: "This is the first item content",
+
     images: [
       "https://i.imgur.com/YMVjqz1.jpg",
       "https://i.imgur.com/QgqyM11.jpg",
@@ -125,7 +125,7 @@ const data = [
   {
     id: "8",
     title: "Malaga",
-    content: "This is the first item content",
+
     images: [
       "https://i.imgur.com/4FsvfrO.jpg",
       "https://i.imgur.com/WsTCfNF.jpg",
@@ -138,7 +138,7 @@ const data = [
   {
     id: "9",
     title: "Llucasaldent",
-    content: "This is the first item content",
+
     images: [
       "https://i.imgur.com/G197Heg.jpg",
       "https://i.imgur.com/0cKbs6m.jpg",
@@ -156,7 +156,7 @@ const data = [
   {
     id: "10",
     title: "La Mama",
-    content: "lorem ipsum dolor",
+
     images: [
       "https://i.imgur.com/tUppwLA.jpg",
       "https://i.imgur.com/cU3NM1y.jpg",
@@ -187,7 +187,7 @@ const data = [
   {
     id: "11",
     title: "Kerstin",
-    content: "lorem ipsum dolor lol",
+
     images: [
       "https://i.imgur.com/qY6otWU.jpg",
       "https://i.imgur.com/9UDKnBl.jpg",
@@ -202,7 +202,7 @@ const data = [
   {
     id: "12",
     title: "Jad & Liza",
-    content: "Lorem ipsum dolor lol xd",
+
     images: [
       "https://i.imgur.com/I2GkxoZ.jpg",
       "https://i.imgur.com/hxUIFNM.jpg",
@@ -219,6 +219,121 @@ const data = [
       "https://i.imgur.com/BwxcHte.jpg",
       "https://i.imgur.com/kJamlBE.jpg",
     ],
+  },
+  {
+    id: "13",
+    title: "Can Pons",
+    images: [
+      "https://i.imgur.com/1VuRrJQ.jpg",
+      "https://i.imgur.com/3EcWE1n.jpg",
+      "https://i.imgur.com/eePEfbu.jpg",
+      "https://i.imgur.com/dhy8jWa.jpg",
+      "https://i.imgur.com/uMH70SL.jpg",
+      "https://i.imgur.com/11UZqiT.jpg",
+      "https://i.imgur.com/OE8WejY.jpg",
+    ],
+  },
+  {
+    id: "14",
+    title: "Carlos Pons",
+    images: [
+      "https://i.imgur.com/nYzcduP.jpg",
+      "https://i.imgur.com/8Rn8F4R.jpg",
+      "https://i.imgur.com/TX05doB.jpg",
+      "https://i.imgur.com/FbUADwo.jpg",
+      "https://i.imgur.com/b294oDy.jpg",
+      "https://i.imgur.com/plHPGa5.png",
+    ],
+  },
+  {
+    id: "15",
+    title: "Claudi & Xavier",
+    images: [
+      "https://i.imgur.com/WhfP5mJ.jpg",
+      "https://i.imgur.com/k3iGMGX.jpg",
+      "https://i.imgur.com/IUu0YUq.jpg",
+      "https://i.imgur.com/0aQzahO.jpg",
+      "https://i.imgur.com/Lpp47mm.jpg",
+      "https://i.imgur.com/HAG2zPY.jpg",
+      "https://i.imgur.com/I9EGORc.jpg",
+      "https://i.imgur.com/wO4RSFT.jpg",
+      "https://i.imgur.com/re8kFvd.jpg",
+    ],
+  },
+  {
+    id: "16",
+    title: "Es Bosc",
+    images: [
+      "https://i.imgur.com/i7ZIhGA.jpg",
+      "https://i.imgur.com/W6JQTMx.jpg",
+      "https://i.imgur.com/1rT7xBr.jpg",
+    ],
+  },
+  {
+    id: "17",
+    title: "Dune",
+    images: ["https://i.imgur.com/xB99R6i.jpg"],
+  },
+  {
+    id: "18",
+    title: "Fortuny",
+    images: [
+      "https://i.imgur.com/Ii9tYDf.jpg",
+      "https://i.imgur.com/S8jkOl5.jpg",
+      "https://i.imgur.com/IbL6uXm.jpg",
+    ],
+  },
+  {
+    id: "19",
+    title: "Clara",
+    images: [
+      "https://i.imgur.com/PYLoboE.jpg",
+      "https://i.imgur.com/NAnevH9.jpg",
+      "https://i.imgur.com/MbaoMwH.jpg",
+      "https://i.imgur.com/vAGyCdO.jpg",
+      "https://i.imgur.com/ILDCwrt.jpg",
+      "https://i.imgur.com/faPV3iT.jpg",
+      "https://i.imgur.com/qssEUoV.jpg",
+    ],
+  },
+  {
+    id: "20",
+    title: "Fotos Colombia",
+    images: [
+      "https://i.imgur.com/wScGVgZ.jpg",
+      "https://i.imgur.com/m1homj1.jpg",
+      "https://i.imgur.com/X7J5AAN.jpg",
+      "https://i.imgur.com/JqEY3ix.jpg",
+      "https://i.imgur.com/rB442Od.jpg",
+      "https://i.imgur.com/KBnT4QR.jpg",
+      "https://i.imgur.com/gtNtDlr.jpg",
+      "https://i.imgur.com/LaQWUUo.jpg",
+      "https://i.imgur.com/qYbZ1CX.jpg",
+    ],
+  },
+  {
+    id: "21",
+    title: "Fotos Estudios",
+    images: [
+      "https://i.imgur.com/CS0uPVO.jpg",
+      "https://i.imgur.com/lO99kZs.jpg",
+      "https://i.imgur.com/D4Ixc87.jpg",
+      "https://i.imgur.com/6j6xR7H.jpg",
+      "https://i.imgur.com/6rJPdee.jpg",
+      "https://i.imgur.com/Au1dxSA.jpg",
+      "https://i.imgur.com/iebBbzF.jpg",
+      "https://i.imgur.com/dRh5riZ.jpg",
+    ],
+  },
+  {
+    id: "16",
+    title: "Dune",
+    images: ["https://i.imgur.com/xB99R6i.jpg"],
+  },
+  {
+    id: "16",
+    title: "Dune",
+    images: ["https://i.imgur.com/xB99R6i.jpg"],
   },
 ];
 

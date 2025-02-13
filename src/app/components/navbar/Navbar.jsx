@@ -18,17 +18,10 @@ const Navbar = () => {
                 href="/pages/galeryfoto"
                 className=" hover:text-[#f70404] duration-300"
               >
-                Fotos
+                Portafolio
               </Link>
             </li>
-            <li className="tracking-widest">
-              <Link
-                href="/pages/galeryvideo"
-                className=" hover:text-[#f70404] duration-300"
-              >
-                Videos
-              </Link>
-            </li>
+            
             <li className="tracking-widest">
               <Link
                 href="/pages/contact"
