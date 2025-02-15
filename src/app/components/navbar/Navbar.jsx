@@ -38,7 +38,7 @@ const Navbar = () => {
               src={Logo}
               alt="Picture of the author"
       
-              loading="lazy"
+              loading="eager"
               width={100}
               height={100} 
             />
